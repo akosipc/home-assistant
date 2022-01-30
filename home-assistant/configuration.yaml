@@ -1,0 +1,4 @@
+default_config:
+
+tts:
+  - platform: google_translate
