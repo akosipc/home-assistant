@@ -1,0 +1,9 @@
+title: Home
+views:
+  - path: default_view
+    title: Home
+    cards:
+      - type: picture-elements
+        entity: camera.v380_stream0_0
+        camera_view: live
+        camera_image: camera.v380_stream0_0

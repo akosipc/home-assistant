@@ -1,0 +1,10 @@
+lovelace:
+  mode: yaml
+  dashboards:
+    lovelace-generated:
+      mode: yaml
+      filename: ui-lovelace.yaml
+      title: Generated
+      icon: mdi:tools
+      show_in_sidebar: true
+      require_admin: true

@@ -6,8 +6,12 @@ services:
     ports:
       - '8123:8123'
     volumes:
+      - home_assistant:/config
       - ./home-assistant/configuration.yaml:/config/configuration.yaml
+      - ./home-assistant/lovelace.yaml:/config/lovelace.yaml
+      - ./home-assistant/ui-lovelace.yaml:/config/ui-lovelace.yaml
     environment:
       TZ: 'Asia/Manila'
 
-
+volumes:
+  home_assistant:
